@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+/* Start Home */
+.layer {
+  background-color: rgba(0, 0, 0, 0.459);
+  height: 100%;
+}
+
+.home {
+  background-image: url(Images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.home .container {
+  padding: 1.5% 6%;
+  color: #fff;
+}
+
+.home .container img {
+  float: left;
+  width: 130px;
+}
+
+.home .container ul {
+  float: right;
+  list-style: none;
+}
+
+.home ul li {
+  float: left;
+  padding-right: 20px;
+} 
+
+.home .intro p {
+  color: #CCCCCC;
+  padding: 3% 0;
+  font-size: 1.5rem;
+}
+
+.home .intro h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.home .btn {
+  border-radius: 5px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.home .btn1 {
+  background-color: #8E7754;
+  color: #fff;
+  border: 1px solid #8E7754;
+  margin-right: 0.5%;
+}
+
+.home .btn2 {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+/* End of Home */
+
+/* Start About and Location */
+
+.about , .location {
+  padding: 5% 7%;
+}
+
+.location {
+  background-color: #F8F8F8;
+}
+
+.about .image {
+  float: left;
+}
+
+.location .image {
+  float: right;
+}
+
+.about .image img , .location .image img {
+  width: 500px;
+}
+
+.about .content {
+  float: right;
+}
+
+.location .content {
+  float: left;
+}
+
+.about .content , .location .content {
+  width: 48%;
+  padding-top: 5%;
+  color: #686868;
+  line-height: 2rem;
+}
+
+.about .content h2 , .about .content p , .location .content h2 , .location .content p {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.about .content ul {
+  list-style: none;
+}
+
+.about .content i {
+    border: 0.5px solid #929292;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 2%;
+    color: #8e7754;
+}
+/* End of About and Location*/
+
+/* Start Baking */
+.baking {
+  padding: 4% 0;
+  text-align: center;
+}
+
+.baking .our h2 {
+  margin-bottom: 2%;
+  color: #303030;
+}
+
+.baking .division {
+  margin: 5% 3%;
+}
+
+.baking .division .sec {
+  float: left;
+  width: 29%;
+  margin: 0 2%;
+}
+
+.baking .division img {
+  width: 350px;
+  margin-bottom: 5%;
+}
+
+.baking .division h4 {
+  color: #303030;
+  margin-bottom: 4%;
+}
+
+.baking .our p , .baking .division p {
+  color: #686868;
+  line-height: 2rem;
+}
+/* End of Baking */
+
+/* Start Contact */
+
+.contact {
+  padding: 5% 7%;
+  background-color: #F8F8F8;
+}
+
+.contact .image {
+  float: right;
+}
+
+.contact .image img {
+  width: 500px;
+  margin-top: 20%;
+}
+
+.contact .content {
+  float: left;
+  width: 48%;
+  padding-top: 5%;
+  line-height: 2rem;
+}
+
+.contact .content h2 , .contact .content p {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.contact .content h2 {
+  color: #303030;
+}
+
+.contact .content p {
+  color: #686868;
+}
+
+.contact .content .details {
+  text-align: left;
+}
+
+.contact .content ul {
+  list-style: none;
+  color: #686868;
+}
+
+.contact .content i {
+    border: 0.5px solid #8E7754;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 2%;
+    color: #fff;
+    background-color: #8E7754;
+    font-size: 1rem;
+}
+
+/* End of Contact*/
+
+/* Start spacial */
+.special  {
+  background-color: #403D38;
+  padding: 4% ;
+}
+
+.special .one , .two , .three , .four{
+  float: left;
+  width: 23%;
+  padding-left: 2%;
+}
+
+.special h4 {
+  color: #fff;
+  letter-spacing: 0.1rem;
+  padding-bottom: 7%;
+  font-size: 1.1rem;
+}
+
+.special h3 , .special p {
+  color: #96968A;
+  font-size: 1.2rem;
+  padding: 5% 0;
+}
+
+.special hr {
+  color: #000;
+  border: 0.1px solid rgba(41, 41, 41, 0.596);
+}
+/* End of special */
+
+/* Start Footer */
+.footer  {
+  background-color: #302e2b;
+  padding: 5% ;
+}
+
+.footer img {
+  width: 230px;
+  margin-left: 39%;
+}
+
+.footer p {
+  text-align: center;
+  color: #96968A;
+  padding-top: 2%;
+}
+
+.footer .icons {
+  padding-left: 42%;
+  margin-top: 2% ;
+}
+
+.footer .icons i {
+  font-size: 1.3rem;
+  margin-right: 1%;
+  padding: 1.5%;
+  color: #96968A;
+  background-color: #474440;
+  border-radius: 50%;
+  }
+
+/* End of Footer */
+
+
